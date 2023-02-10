@@ -200,7 +200,7 @@ int main(int argc, char const *argv[]){
     // Infinite loop
     while (TRUE) {
 
-        mvprintw(LINES - 2, 1, "Press 'e' to exit from client mode\n");
+        mvprintw(LINES - 2, 1, "Press 'r' to cancel zeros\n");
         mvprintw(LINES - 1, 1, "Press 's' to make a screenshot\n");
         
         // Get input in non-blocking mode
