@@ -1,7 +1,3 @@
-mkdir bin &
-mkdir logfiles &
-mkdir screenshot &
-
 gcc src/processA.c -lbmp -lm -lncurses -o bin/processA
 gcc src/processB.c -lbmp -lm -lncurses -o bin/processB
 gcc src/master.c -o bin/master
